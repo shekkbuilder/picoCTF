@@ -1,4 +1,3 @@
-```python
 from pwn import *
 import sys
 
@@ -80,4 +79,3 @@ if __name__ == "__main__":
         p = process(['./console', 'log'])
         pause()
         exploit(p)
-```
